@@ -5,7 +5,7 @@ Get local weather with wunderground.com api, PHP Class
 
 How to use
 -----------
-
+`````php
 <?php
 
 include_once 'weather.php';
@@ -19,3 +19,4 @@ echo ' C';
 echo '<br/>';
 echo $w->getSateliteImage(true);
 ?>
+`````
